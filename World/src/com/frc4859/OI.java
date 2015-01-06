@@ -38,7 +38,7 @@ public class OI {
         shotButton = new JoystickButton(xbox,1);
         shotButton.whenPressed(new ShooterShot());
         shotButton.whenReleased(new ShooterStop());
-        reverseButton = new JoystickButton(xbox,4);
+        reverseButton = new JoystickButton(xbox,5);
         reverseButton.whenPressed(new ShooterReverse());
         reverseButton.whenReleased(new ShooterStop());
         

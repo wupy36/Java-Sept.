@@ -9,7 +9,7 @@ package com.frc4859;
 
 
 import com.frc4859.commands.CommandBase;
-import com.frc4859.commands.autonomous.DriveInASquare;
+import com.frc4859.commands.autonomous.DRFAOT;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
@@ -32,7 +32,7 @@ public class RobotTemplate extends IterativeRobot {
      */
     public void robotInit() {
         // instantiate the command used for the autonomous period
-        autonomousCommand = new DriveInASquare();
+        autonomousCommand = new DRFAOT();
 
         // Initialize all subsystems
         CommandBase.init();
